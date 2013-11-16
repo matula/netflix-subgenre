@@ -1,5 +1,6 @@
 body {
 	padding-top: 50px;
+	font-family: Helvetica, Arial, sans-serif;
 }
 .navbar-inverse {
 	background-color: #900;
@@ -15,4 +16,61 @@ body {
 }
 .disclaimer {
 	color:#fff;
+}
+
+.genre-box h3 {
+	color: rgb(46, 35, 34);
+	display: block;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+#movie-list {
+	list-style: none;
+	padding-left: 0;
+}
+#movie-list li {
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+#movie-list li img {
+	width: 166px;
+	height: 236px;
+	border: 1px solid #666;
+}
+
+.overlay { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right:0; 
+	bottom:0;
+	width: 166px;
+	height: 236px;
+	display: none; 
+	background: url('/img/movieoverlay.png') no-repeat;
+}
+#movie-list li a:hover .overlay { 
+	display: block;
+}
+.save {
+	margin-top: 50px;
+	text-align: center;
+}
+.tw-button {
+	margin-left: 20px;
+	margin-top: 20px;
+	display: block;
+}
+.gp-button {
+	margin-top: 20px;
+	display: block;
+}
+.fb-share-button {
+	display: block;
 }

@@ -37,9 +37,9 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Netflix<sup>&reg;</sup> Sub-genre Generator</a>
+          <a class="navbar-brand" href="/">Netflix<sup>&reg;</sup> Sub-genre Generator</a>
         </div>
-        <div class="pull-right disclaimer">Not affiliated with Netflix<sup>&reg;</sup> in any way. This is just for fun.</div>
+        <div class="pull-right disclaimer">Not affiliated with Netflix<sup>&reg;</sup> in <em>any</em> way. This is just for fun.</div>
       </div>
     </div>
 
